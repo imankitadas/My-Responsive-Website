@@ -1,0 +1,215 @@
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{ 
+    height:100vh;
+    background-image: url(./assets/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    margin:0 5%;
+}
+
+/* ṆavBar */
+
+nav{ 
+    display: flex;
+    flex-direction: row;
+    height:18vh;
+    align-items: center;
+}
+
+.navlink{ 
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 25px;
+} 
+
+nav .nav-menu-icon{ 
+    display: none;
+}
+
+nav .navlist{ 
+   flex: 2;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style-type: none;
+}
+
+.brand-img{ 
+    flex:1;
+    margin: auto;
+}
+
+.brand-img img{ 
+    width:8vh;
+}
+
+#btn{
+   border:none;
+   background-color: #e03b8b;
+   color: #ffffff;
+   font-size: 1.2rem; 
+   padding:8px 30px;
+   border-radius: 22px;
+   cursor: pointer;
+}
+
+#btn:hover{ 
+    background-color:#ffffff;
+    color:#e03b8b;
+}
+
+/* Container */
+
+
+.container{ 
+    height:82vh;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.col{ 
+    display: flex;
+    flex: 0.5;
+    min-height:100%;
+}
+
+.col-left{ 
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+
+.col-left p{ 
+   font-size:1.5rem;
+}
+
+.col-left h1{ 
+   font-size:4rem;
+}
+
+.googleplay{ 
+    width: 20vh;
+    cursor: pointer;
+}
+
+.col-right{ 
+    overflow: hidden;
+}
+
+.phone-img{ 
+    position:absolute;
+    bottom:0;
+    right:0;
+    height:90%;
+}
+
+@media screen and (max-width:1230px){ 
+    .brand-img img{ 
+        width:6vh;
+    }
+    
+    nav .navlist{ 
+       flex-direction: column;
+       gap:20px;     
+       margin-top:30%;
+       margin-left:80% ;
+    }
+
+    .navlink{ 
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    nav .nav-menu-icon{ 
+        display:block;
+        margin:auto; 
+    }
+
+    nav .nav-menu-icon i{ 
+        font-size:25px; 
+        color:#ffffff; 
+    }
+
+    #btn{
+        font-size:0.8rem;
+        padding:8px 30px;
+        border-radius: 22px;
+        cursor: pointer;
+     }
+    
+    .phone-img{ 
+        height:68%;
+    }
+    
+    .col-left{ 
+        flex-direction: column;
+        justify-content: center;
+        gap:15px;
+    }
+    
+    .col-left p{ 
+       font-size:1.3rem;
+    }
+    
+    .col-left h1{ 
+       font-size:3rem;
+    }
+
+    .googleplay{ 
+        width: 15vh;
+        cursor: pointer;
+    }
+
+    .v-class{ 
+        opacity:0;
+    }
+
+}
+
+@media screen and (max-width:830px){ 
+    .phone-img{ 
+        display:none;
+    }
+ 
+    nav .navlist{ 
+        flex-direction: column;
+        gap:20px;     
+        margin-top:45%;
+        margin-left:70% ;
+     }
+
+    .col-left p{ 
+       font-size:1.2rem;
+    }
+    
+    .col-left h1{ 
+       font-size:3.2rem;
+    }
+
+    .googleplay{ 
+        width: 20vh;
+        cursor: pointer;
+    }
+
+    .container{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col{ 
+        position: relative;
+        top:50%;
+        align-items:center;
+    }
+}
+
