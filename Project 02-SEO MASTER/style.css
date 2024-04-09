@@ -128,7 +128,6 @@ main{
    display: none;
 }
 
-
 .menu-icon.active i {
     display: none;
 }
@@ -177,7 +176,6 @@ main{
         position: relative;
         top:48px;
         left:210%;
-        
     }
 
     .nav-bar ul li{ 
