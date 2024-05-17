@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- NavBar -->
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="./Images/logo.png" alt="brand-logo"></a>
+             
+            <ul class="navlist">
+               <a href="#home"><li>Home</li></a>
+               <a href="#cakes"><li>cakes</li></a>
+               <a href="#cheesecake"><li>Cheesecake</li></a>
+               <a href="#new-arrival"><li>New Arrivals</li></a>
+               <a href="#about"><li>about</li></a>
+               <a href="#review"><li>review</li></a>
+               <a href="#contact"><li>Contact</li></a> 
+            </ul>
+
+            <div class="nav-icons">
+               <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+               <div class="carticon"><i class="fa-solid fa-cart-plus"></i></div>
+               <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+             
+            <!--Search Form  -->
+
+            <div class="searchinput">
+                <input type="text" placeholder="Search here....">
+                <label for="text" class="fa-solid fa-magnifying-glass"></label>
+            </div>
+             
+            <!-- Cart items -->
+            <div class="cart-items-container">
+               <div class="cart-items">
+                 <span class="fa-solid fa-xmark"></span>
+                 <img src="./Images/cakes/cake1.jpg" alt="">
+                 <div class="cake-details"> 
+                   <h3>Lime Cake</h3>
+                   <div class="price">$14.99/-</div>
+                 </div>
+                </div>
+                 
+                <div class="cart-items">
+                    <img src="./Images/brownes.jpg" alt="">
+                    <div class="cake-details"> 
+                     <h3>Brownes</h3>
+                     <div class="price">$10.99/-</div>
+                    </div>
+                    <span class="fa-solid fa-xmark"></span>
+                </div>
+                
+                <div class="cart-items">
+                    <img src="./Images/cookies.jpg" alt="">
+                    <div class="cake-details"> 
+                     <h3>Cookies</h3>
+                     <div class="price">$80.99/-</div>
+                    </div>
+                    <span class="fa-solid fa-xmark"></span>
+                </div>
+                 
+                <div class="cart-items">
+                    <img src="./Images/cheesecakes/cheesecake2.jpg" alt="">
+                    <div class="cake-details"> 
+                     <h3>Cheese Cake</h3>
+                     <div class="price">$20.99/-</div>
+                    </div>
+                    <span class="fa-solid fa-xmark"></span>
+                </div>
+                <button id="add-cart-btn">Order Now</button>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="home-page">
+        <h3>INDULGE IN<br>HEAVENLY<br>SWEET DELIGHTS</h3>
+        <p>Lorem Ipsum Dolor Sit Amet Consectetur adipisicing elit.<br> Recusandae Nulla Deserunt Voluptate Ducimus Temporibus<br> Excepturi.</p>
+        <button class="homepage-btn">Get Yours Now</button>
+      </div>
+    </section>
+
+     <!-- Cake Section -->
+    <section class="cakes-page" id="cakes">
+        <h1 class="title">OUR <span>CAKES</span></h1>
+
+        <!-- item one -->
+        <div class="first-cakes-row"> 
+         <div class="cake-box">
+           <img src="./Images/cakes/cake1.jpg" alt="" class="cake-images">
+           <h3>Chocolate Cake</h3>
+           <div class="price">$15.88/-</div>
+           <a href="#" class="addcakebtn">Add To Cart</a>         
+          </div>
+
+         <!-- item two -->
+         <div class="cake-box">
+           <img src="./Images/cakes/cake2.jpg" alt="" class="cake-images">
+           <h3>Pineapple Cake</h3>
+           <div class="price">$15.88/-<span>$44.44</span></div>
+           <a href="#" class="addcakebtn">Add To Cart</a>         
+          </div>
+
+         <!-- item three -->
+         <div class="cake-box">
+           <img src="./Images/cakes/cake3.jpg" alt="" class="cake-images">
+           <h3>Wedding Cake</h3>
+           <h4 class="price">$150.88/- <span>$200.66</span></h4>
+           <a href="#" class="addcakebtn">Add To Cart</a>
+         </div>
+          
+         <!-- item four -->
+         <div class="cake-box">
+            <img src="./Images/cakes/cake4.jpg" alt="" class="cake-images">
+            <h3>Waffle Cake</h3>
+            <div class="price">$15.88/-</div>
+            <a href="#" class="addcakebtn">Add To Cart</a>
+         </div>
+        </div>
+         
+        <!-- item five -->
+        <div class="second-cakes-row"> 
+         <div class="cake-box">
+            <img src="./Images/cakes/cake5.jpg" alt="" class="cake-images">
+            <h3>weddding Cake</h3>
+            <div class="price">$12.99</div>
+            <a href="#" class="addcakebtn">Add To Cart</a>         
+          </div>
+
+         <!-- item six -->
+         <div class="cake-box">
+            <img src="./Images/cakes/cake6.jpg" alt="" class="cake-images">
+            <h3>waffle Cake</h3>
+            <div class="price">$15.88</div>
+            <a href="#" class="addcakebtn">Add To Cart</a>         
+          </div>
+        </div>
+      </section>
+
+     <!-- Cheesecakes -->
+     
+     <section class="cheesecake-page" id="cheesecake"> 
+      <h1 class="title">OUR <span>CHEESE CAKES</span></h1>
+         
+         <!-- item one -->
+         <div class="cheesecake-card">
+           
+          <!-- item-one -->
+          <div class="cake-card">
+
+             <div class="cart-details">
+               <div class="cart box"><i class="fa-solid fa-cart-shopping"></i></div>
+               <div class="wishlist box"><i class="fa-solid fa-heart"></i></div>
+               <div class="like box"><i class="fa-solid fa-eye"></i></div>
+             </div>
+
+            <img src="./Images/cheesecakes/cheesecake1.jpg" alt="" class="cheesecake-images">
+            <h3>Raspberry Cheesecake</h3>
+            <div class="rating"> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="price">$15.99/- <span>$20.99</span></div>        
+          </div>
+          
+          <!-- item two -->
+          <div class="cake-card">
+
+            <div class="cart-details">
+              <div class="cart box"><i class="fa-solid fa-cart-shopping"></i></div>
+              <div class="wishlist box"><i class="fa-solid fa-heart"></i></div>
+              <div class="like box"><i class="fa-solid fa-eye"></i></div>
+            </div>
+
+            <img src="./Images/cheesecakes/cheesecake2.jpg" alt="" class="cheesecake-images">
+            <h3>Mango Cheesecake</h3>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="price">$15.99/- <span>$20.99</span></div>        
+          </div>
+             
+          <!-- item three -->
+          <div class="cake-card">
+            
+            <div class="cart-details">
+              <div class="cart box"><i class="fa-solid fa-cart-shopping"></i></div>
+              <div class="wishlist box"><i class="fa-solid fa-heart"></i></div>
+              <div class="like box"><i class="fa-solid fa-eye"></i></div>
+            </div>
+           
+            <img src="./Images/cheesecakes/cheesecake4.jpg" alt="" class="cheesecake-images">
+            <h3>Fruity Summer Cheesecake</h3>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i> 
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="price">$15.99/- <span>$20.99</span></div>        
+          </div>
+         </div>
+     </section>
+
+      <!-- New Arrivals -->
+     
+      <section class="new-arrival" id="new-arrival"> 
+        <h1 class="title">NEW<span> ARRIVALS</span></h1>
+                 
+           <!-- item one -->
+           <div class="arrival-card">
+               
+            <!-- item-one -->
+            <div class="newcake-card">
+              <img src="./Images/macroons.jpg" alt="" class="">
+              <h3>Rainbow Macrons</h3>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur,<br>Adipisicing Elit,Cumque,Quae?</p>
+              <button class="hide">Explore</button>          
+            </div>
+            
+            <!-- item two -->
+            <div class="newcake-card">
+              <img src="./Images/cookies.jpg" alt="" class="">
+              <h3>Soft & Crunchy Cookies</h3>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur,<br>Adipisicing Elit,Cumque,Quae?</p> 
+              <button class="hide">Explore</button>      
+            </div>
+
+            <!-- item three -->
+            <div class="newcake-card">
+              <img src="./Images/brownes.jpg" alt="" class="">
+              <h3>MouthWatering Brownes</h3>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur,<br>Adipisicing Elit,Cumque,Quae?</p> 
+              <button class="hide">Explore</button>         
+            </div>
+           </div>
+       </section>
+     
+      <!-- About -->
+      <section class="aboutus" id="about">
+         <h1 class="title"><span>ABOUT</span> US</h1>
+         <div class="about-box">
+          <div class="left-card"><img src="./Images/cheesecakes/cheesecake1.jpg" alt=""></div>
+          <div class="right-card">
+          <h3>What Makes Our Cakes Special?</h3>
+          <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Eit. Eveniet Ipsam Et,<br>Corporis Minima Doloribus Nemo Dolorum Similique Quaerat Laboriosam<br>Reiciendis Harum Quos Quam Dignissimos. Aliquam Minima Neque Quos.<br>Consectar, Assumenda<br><br>
+          lorem Ipsum Dolor Sit Amet Consctetur Adipisicing Elit. Ipsum Illo, Iure<br> Labore Explicabo At Quasi Debitis Totam Earum Dicto Laudantium!</p>
+          <button>Learn More</button>
+         </div>
+         </div>
+      </section>
+      
+      <!--Review -->
+      <section class="review" id="review">
+        <h1 class="title">CUSTOMER'S<span> REVIEWS</span></h1>
+
+        <div class="reviewcards"> 
+         <div class="reviews-box">
+           <div>
+            <img src="./Images/quote.png" alt="" class="logo">
+           </div>
+           <p>Lorem Ipsum Dolor Sit Amit Consectetur<br>Adipisicing Elit. Fugit, Incident Magnum. Error <br>Maxime Porro Velit Excepturi Distincto, Ab<br>Repellat.Odio?</p>
+           <div>
+            <img src="./Images/woman1.jpg" alt="" class="customer-image">
+           </div>
+           <h3 class= "title-name">Amelia Doe</h3>
+           <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i> 
+              <i class="fa-solid fa-star-half-stroke"></i>
+           </div>
+         </div>
+
+         <div class="reviews-box">
+          <div>
+           <img src="./Images/quote.png" alt="" class="logo">
+          </div>
+          <p>Lorem Ipsum Dolor Sit Amit Consectetur<br>Adipisicing Elit. Fugit, Incident Magnum. Error <br>Maxime Porro Velit Excepturi Distincto, Ab<br>Repellat.Odio?</p>
+          <div>
+           <img src="./Images/woman2.jpg" alt="" class="customer-image">
+          </div>
+          <h3 class= "title-name">Olivia Parker</h3>
+          <div class="reviews">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i> 
+             <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+
+        <div class="reviews-box">
+          <div>
+           <img src="./Images/quote.png" alt="" class="logo">
+          </div>
+          <p>Lorem Ipsum Dolor Sit Amit Consectetur<br>Adipisicing Elit. Fugit, Incident Magnum. Error <br>Maxime Porro Velit Excepturi Distincto, Ab<br>Repellat.Odio?</p>
+          <div>
+           <img src="./Images/man.jpg" alt="" class="customer-image">
+          </div>
+          <h3 class= "title-name">David Smith</h3>
+          <div class="reviews">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i> 
+             <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+         </div>
+        </div>
+      </section>
+        
+      <!-- Contact -->
+      <section class="contact-us" id="contact">
+        <h1 class="title">CONTACT<span> US</span></h1>
+        <div class="contact-details">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.13297727474!2d-0.14872680000002497!3d51.4924272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760518ea521aaf%3A0xec75236f8302e079!2sVictoria%20Station%2C%20London%20SW1W%209RH%2C%20UK!5e0!3m2!1sen!2sin!4v1711556331061!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <form action="">
+            <h2>GET IN TOUCH</h2>
+            <div class="input-box">
+              <span class="fa-regular fa-id-badge"></span>
+              <input type="text" placeholder="name" class="name">
+            </div>
+             
+            <div class="input-box">
+              <span class="fa-solid fa-envelope"></span>
+              <input type="email" placeholder="email" class="email">            
+            </div>
+
+            <div class="input-box">
+              <span class="fa-solid fa-phone-flip"></span>
+              <input type="number" placeholder="number" class="number">
+            </div>
+            <button class="form-btn">Contact Now</button>
+           </form>   
+           
+        </div>
+      </section>
+
+       <!-- FOOTER -->
+        <footer class="footer">
+           <div class="icon-list">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+            <a href="#" class="fa-brands fa-pinterest"></a>
+           </div>
+
+           <div class="footer-list">
+              <a href="#">Home</a>
+              <a href="#">Cakes</a>
+              <a href="#">Cheesecake</a>
+              <a href="#">New Arrivals</a>
+              <a href="#">About</a>
+              <a href="#">Review</a>
+              <a href="#">Contact</a>
+           </div>
+           <div class="credits">
+             <p>created by <span>  code with ankita</span></p>
+           </div>
+          </footer>
+      
+    <script src="./script.js"></script>
+</body>
+</html>
